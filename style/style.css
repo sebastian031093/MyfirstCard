@@ -12,6 +12,9 @@ html {
 body {
   font-family: 'Kumbh Sans', sans-serif;
   background-color: #19a2ae;
+  background-image: url("/images/bg-pattern-bottom.svg"), url(/images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-position: right 10vw bottom 50vh, left 50vw top 50vh;
 }
 
 .flex {
@@ -96,5 +99,10 @@ body {
 
 .Card-footer-social p {
   letter-spacing: 1px;
+}
+
+.Card-footer-social-title {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
