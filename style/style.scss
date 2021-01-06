@@ -16,7 +16,7 @@ html {
 body{
     font-family: 'Kumbh Sans', sans-serif;
     background-color: $dark-cyan;
-    background-image: url('/images/bg-pattern-bottom.svg'), url(/images/bg-pattern-top.svg);
+    background-image: url('/images/bg-pattern-bottom.svg'), url('/images/bg-pattern-top.svg');
     background-repeat: no-repeat;
     background-position: right 10vw bottom 50vh, left 50vw top 50vh;
 }
